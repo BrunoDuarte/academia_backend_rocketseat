@@ -64,3 +64,9 @@ npm i zod
 npm i prisma -D
 npm i @prisma/client
 ```
+
+- Dependencia pra fazer a encriptação da senha
+```
+npm i bcryptjs
+npm i @types/bcryptjs -D
+```
