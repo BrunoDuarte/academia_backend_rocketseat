@@ -58,3 +58,9 @@ npm i dotenv
 ```
 npm i zod
 ```
+
+- Instalar o ORM prisma para banco de dados
+```
+npm i prisma -D
+npm i @prisma/client
+```
