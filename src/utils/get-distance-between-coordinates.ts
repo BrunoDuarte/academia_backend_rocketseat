@@ -23,3 +23,5 @@ export function getDistanceBetweenCoordinates(from: Coordinate, to: Coordinate) 
 
   return dist
 }
+
+// rewrite this function getDistanceBetweenCoordinates as an SQL query
