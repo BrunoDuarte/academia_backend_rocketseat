@@ -2,7 +2,7 @@ import { SendMessageQueueUseCase } from "@/use-cases/send-message-queue";
 import { FastifyReply, FastifyRequest } from "fastify";
 import { z } from "zod";
 
-export async function queue(request: FastifyRequest, reply: FastifyReply) {
+export async function sendQueue(request: FastifyRequest, reply: FastifyReply) {
   const queueSchema = z.object({
     queueName: z.string(),
     message: z.string()
